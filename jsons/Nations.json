@@ -2,7 +2,7 @@
 
     {//梦泽
 		"name": "Dreamland",
-		"leaderName": "Leader",
+		"leaderName": "ZiWen",
 		"personality": "Korea",
 		"startBias": ["Lakes"],
 
@@ -28,34 +28,7 @@
 				"[+100]% Production when constructing [Temple image] buildings [in all cities] <after adopting [Piety]>"],
 		"cities": ["Dreamland"]
     },
-	{//引水渠
-		"name": "Aqueduct",
-		"leaderName": "Leader",
-		"personality": "Korea",
-		"startBias": ["Mountain"],
-
-        "startIntroPart1": "Let's begin!",
-        
-        "declaringWar": "Your behavior has angered me. I declare a just war against you",
-		"attacked": "How dare you attack me! My sword will be the only thing waiting for you, and you will return with nothing",
-		"defeated": "Although I failed, I will come back one day. I hope you can treat my people well",
-		
-		"introduction": "I welcome you very much, dear stranger, do you need to sit down and talk?",
-		
-		"neutralHello": "Greetings!",
-		"hateHello": "What?",
-		
-		"tradeRequest": "I will provide enough goods to impress you, and I hope the goods you provide will also impress me",
-		"outerColor": [255,255,255],
-		"innerColor": [0,0,0],
-		"uniqueName": "Aqueduct tradition",
-	    "uniqueText": "",
-        "uniques": [
-		    "\"Borrows\" city names from other civilizations in the game",
-			"Provides a [Tradition Four Cities] in your first [4] cities for free <after adopting [Tradition]>"   
-		],
-		"cities": ["Holy aqueduct","Golden aqueduct","Ancient Canal City","Aqueduct City"]
-    },
+	
 	{ //唐朝
 		"name": "Tang dynasty",
 		"leaderName": "Li Shimin",
@@ -254,6 +227,7 @@
 		"innerColor": [255, 224, 102],
 		"uniqueName": "Nîhithaw",
 		"uniques": [
+		    "New [Okihtcitaw] units start with [30] XP [in all cities]"
             "[+1 Food, +1 Production, +2 Gold] [in all cities connected to capital]",
             "[-50]% construction time for [All Road] improvements",
 		],
@@ -369,6 +343,141 @@
 			"Tskhinvali",
 			"Urbnisi",
 			"Zestafoni"
+		]
+	},
+	
+    {
+        "name": "Sumeria",
+        "leaderName": "Gilgamesh",
+        "adjective": ["Sumer"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Scientific",
+        "startIntroPart1": "The neverending glory be upon you. King Gilgamesh, most legendary and mystical ruler of Sumeria! Oh mighty king, whose hands built the city-walls of Uruk and eyes saw the sage Utnapishtim! You are the leader of the Sumer, the first and the only civilization that was truely original and innovative. Sumer's history stretches back into time when the Gods were walking alongside the mere mortals. Sumer, the cradle of civilization, made a great progress in our history, gave the world most beatiful things - literature, architecture and music - and developed professional army, immortalizing the very first battle in the stele. Sumer's contributions to the civlization of man are uncountable.",
+        "startIntroPart2": "Divine King, who, with strength and wisdom, built the glory of the ancient Sumer and became the very first hero of the history - people seek for your guidance! The wealth of Euphrates, Tigris and the whole Fertile Crescent cannot be wasted in the hands of barbarians. Can you once more bring glory and light to the humankind? Can you build a civilization to stand the test of time?",
+        "declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer! ",
+        "attacked": "I will enjoy hearing your last breath when you witness the destruction of your people. ",
+        "defeated": "The time has come. Mere mortals challenged the Gods and overthrew them, destroying the old world and proudly awaiting the new one.",
+        "introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraid… I am good to my friends. ",
+        "neutralHello": "Welcome",
+        "hateHello": "Hah! Gilgamesh is stronger than your false words. ",
+        "tradeRequest": "All the world knows of my generosity to my friends. ",
+        "outerColor": [1,42,107],
+        "innerColor": [254,129,19],
+        "uniqueName": "Legacy of the Sages",
+        "uniques": [
+            "Free [Sages] appears <upon gaining a [Great Person] unit>",
+            "[-4 Science] from every [Academy]",
+            "[-1 Production] from every [Manufactory]",
+            "[-1 Faith] from every [Holy site]",
+            "Instantly provides [1] [Number of World Wonders] <upon constructing [World Wonder]>",
+            "[+1 Science] from every [Academy] <for every [Number of World Wonders]>",
+            "[+1 Culture] from every [Landmark] <for every [Number of World Wonders]>",
+            "[+1 Production] from every [Manufactory] <for every [Number of World Wonders]>",
+            "[+1 Gold] from every [Customs house] <for every [Number of World Wonders]>",
+            "[+1 Faith] from every [Holy site] <for every [Number of World Wonders]>",
+            
+            "[Warrior] units gain the [[Enkidu] ability] promotion <before turn number [1]> <for [Human player] Civilizations> <hidden from users>",
+            "[Scout] units gain the [[Enkidu] ability] promotion <before turn number [1]> <for [AI player] Civilizations> <hidden from users>",
+            "Free [Enkidu] appears <for [AI player] Civilizations> <hidden from users>",
+            
+            "Comment [-----]",
+			"Comment [Adventures of Enkidu:]",
+			"Comment [Clearing Barbarian encampment Provides a Ancient ruins bonus when entered]",
+        ],
+        "cities": [
+           "Uruk",
+			"Eridu",
+			"Kish",
+			"Ur",
+			"Lagash",
+			"Nippur",
+			"Bad-Tibira",
+			"Sippar",
+			"Shuruppak",
+			"Adab",
+			"Isin",
+			"Hamazi",
+			"Larak",
+			"Abu Salabikh",
+			"Umma",
+			"Larsa",
+			"Girsu",
+			"Jemdet Nasr",
+			"Nina",
+			"Kuara",
+			"Dilbat",
+			"Kutha",
+			"Marad",
+			"Zabalam",
+			"Kisurra",
+			"Pazurish-Dagan",
+			"Harbidum",
+			"Kesh",
+			"Fallaka"
+        ],
+        "spyNames": [
+            "Azi","Dabir","Firuz","Gaspar","Shahzad","Aga","Marjane","Peri","Sartaj","Yasmin"
+        ]
+    },
+    
+    {
+		"name": "Maori",
+		"leaderName": "Kupi",
+		"startBias": [
+			"Coast"
+		],
+		"adjective": [
+			"Polynesia"
+		],
+		"declaringWar": "You choose death! Your people wail and moan! The pillars of your houses shake, all your lands are shaking!",
+		"attacked": "Look at the big civ leader over there with the war declaration! Great job, mate. Really shows off how hard you are.",
+		"defeated": "I have done my utmost, but your strength was greater. My heart, at least, will beat undefeated.",
+		"introduction": "I am Kupe the navigator, and you approach the place of the Maori. Will you tell me about yourself?",
+		"neutralHello": "Yeah you're alright.",
+		"hateHello": "Yeah nah.",
+		"tradeRequest": "Here are gifts of pounamu, korowai cloaks and huhu grubs.",
+		"outerColor": [
+			205,
+			0,
+			1
+		],
+		"innerColor": [
+			125,
+			235,
+			228
+		],
+		"uniqueName": "Mana",
+		"uniques": [
+			"[+1 Food] from every [{Grassland} {Forest}]",
+			"[+1 Production] from every [{Plains} {Forest}]",
+			"[+1 Production] from every [Jungle]",
+			"[+1 Food, +2 Production] from every [Marsh]",
+			"Comment [Can only be built Tile Improvement on feature tile]",
+		],
+		"cities": [
+			"Te Hokianga-nui-a-kupe",
+			"Ngaruawahia",
+			"Opango",
+			"Whakarewarewa",
+			"Kaiapoi",
+			"Whanganui",
+			"Kawhia",
+			"Taumutu",
+			"Kapiti",
+			"Te Pokohiwi",
+			"Otatara pa",
+			"Motupohue",
+			"Ruatoria",
+			"Maungakiekie pa",
+			"Taupiri",
+			"Whaingaroa",
+			"Pukemaire",
+			"Pari-ru",
+			"Taumatawhana pa",
+			"Whanganui-a-Tara",
+			"Waimapihi pa",
+			"Kororipo pa",
+			"Motakiora"
 		]
 	},
     ]

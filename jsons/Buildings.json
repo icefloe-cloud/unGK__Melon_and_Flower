@@ -1,6 +1,22 @@
 [//建筑或奇观或国家奇观<if [Temporary Palace] is constructed in at least [1] of [All]>
-
-
+    
+    
+    {
+		"name": "Moai Statues",
+		"cost": 185,
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": [
+		    "Must be next to [Coast]",
+		    "[+1 Production, +1 Science] from [Water] tiles [in this city]",
+			"[+6 Culture] [in this city] <after discovering [Archaeology]>"
+		],
+		"requiredTech": "Optics",
+		"quote": ""
+	},
+    
+    
 	{
 		"name": "Circus Maximus",
 		"cost": 125,
@@ -258,6 +274,23 @@
 		]
 	},
 	
+	
+	{
+        "name": "Longhouse",
+        "replaces": "Workshop",
+        "uniqueTo": "Iroquois",
+        "cost": 75,
+        "maintenance": 2,
+        "production": 2,
+        "specialistSlots": {"Engineer": 1},
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"production": 10},
+        "uniques": [
+            "[+1 Production] from [Vegetation] tiles [in this city]",
+        ],
+        "requiredTech": "Metal Casting"
+    },
+	
     {//梦泽
 	    "name": "Market image",
     	"gold": 2,
@@ -360,7 +393,7 @@
 			"Unsellable",
 			"Destroyed when the city is captured",]
     },
-
+    
 	{
 		"name": "Shrine image",
 		"faith": 1,
@@ -387,35 +420,8 @@
 		    "[+1 Faith] <after adopting [Organized Religion]>",
 		    "[+10]% [Gold] <after adopting [Theocracy]>"]
     },
-
-	{//引水渠
-		"name": "Aristoaqueduct",
-		"cost": 100,
-		"uniqueTo": "Aqueduct",
-		"requiredBuilding": "Tradition Four Cities",
-		"hurryCostModifier": 0,
-		"uniques": [
-			"Unsellable",
-			"Can only be built <after adopting [Aristocracy]>",
-			"Destroyed when the city is captured",
-			"[40]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Engineering"
-	},
-	{
-		"name": "Traditionaqueduct",
-		"cost": 100,
-		"uniqueTo": "Aqueduct",
-		"requiredBuilding": "Tradition Four Cities",
-		"hurryCostModifier": 0,
-		"uniques": [
-			"Unsellable",
-			"Can only be built <after adopting [Aristocracy]>",
-			"Destroyed when the city is captured",
-			"[40]% Food is carried over after population increases [in this city]"
-	  ],
-		"requiredTech": "Engineering"
-	},
-
+    
+    
 	{//唐朝
 		"name": "Hanlinyuan",
 		"uniqueTo": "Tang dynasty",
@@ -429,7 +435,7 @@
 			"Cost increases by [10] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
-
+	
 	{//明朝
 		"name": "Great Wall of Ming Dynasty",
 		"uniqueTo": "Ming dynasty",
@@ -442,7 +448,7 @@
 		],
 		"requiredTech": "Philosophy"
 	},
-
+	
 	{//刚果
 		"name": "Mbanza",
 		"replaces": "Granary",
@@ -457,7 +463,7 @@
 			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
-	
+		
 	{
 		"name":"Gain Kongo ability",
 		"uniques":[
@@ -466,7 +472,7 @@
 		    "Unbuildable"
 		]
 	},
-
+	
 	{//高棉
 		"name": "Baray",
 		"replaces": "Aqueduct",
@@ -484,7 +490,7 @@
 		"isNationalWonder": true,
 		"uniques": ["[1] free [Holy site Engineer] units appear"],
 	},
-
+	
 	{//匈牙利
 		"name": "Thermal Bath",
 		"replaces": "Colosseum",
@@ -494,8 +500,8 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
 	},
-
-
+	
+	
     {//格鲁吉亚
 		"name": "Production Unity",
 		"uniqueTo": "Georgia",
@@ -635,5 +641,35 @@
 		    
 		    "[+200]% Production when constructing ['Walls type build'] buildings [in this city]"
 		]
+	},
+	
+	//苏美尔-塔庙
+	{
+        "name": "Ziggurat",
+        "replaces": "Temple",
+        "uniqueTo": "Sumeria",
+        "faith": 2,
+        "requiredBuilding": "Shrine",
+        "maintenance": 2,
+        "hurryCostModifier": 25,
+        "percentStatBonus": {"science": 10},
+        "requiredTech": "Philosophy"
+    },
+    
+    
+    {
+		"name": "Marae",
+		"replaces": "Library",
+		"uniqueTo": "Maori",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		    "[+1 Faith] from [{Vegetation} {resource}] tiles [in this city]",
+		    "[+1 Faith] from [Rare feature] tiles [in this city]",
+		    "[+1 Faith] from [Natural Wonder] tiles [in this city]"
+		    
+	    	"[+1 Science] per [2] population [in this city]"
+		],
+		"requiredTech": "Writing"
 	},
 ]
