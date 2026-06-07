@@ -48,4 +48,13 @@
             "Double movement in [Hill]"
         ]
     },
+    
+    {//苏美尔
+		"name": "[Enkidu] ability",
+		"uniques": [
+			"[This Unit] is destroyed",
+			"Free [Enkidu] appears",
+			"Will not be displayed in Civilopedia"
+		]
+	},
     ]

@@ -55,8 +55,134 @@
 		],
 		"hurryCostModifier": 20
 	},
+	
+		/* Great people */
 
-
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit> <for [non-[Maori]] Civilizations>",
+            "Can instantly construct a [Maori Landmark] improvement <by consuming this unit> <for [Maori] Civilizations>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Artist] group",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"
+        ],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit> <for [non-[Maori]] Civilizations>",
+            "Can instantly construct a [Maori Academy] improvement <by consuming this unit> <for [Maori] Civilizations>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Scientist] group",
+            "Great Person - [Science]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit> <for [non-[Maori]] Civilizations>",
+            "Can instantly construct a [Maori Customs house] improvement <by consuming this unit> <for [Maori] Civilizations>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Merchant] group",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+			],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit> <for [non-[Maori]] Civilizations>",
+            "Can instantly construct a [Maori Manufactory] improvement <by consuming this unit> <for [Maori] Civilizations>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Engineer] group",
+            "Great Person - [Production]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet> <for [non-[Maori]] Civilizations>",
+            "Can instantly construct a [Maori Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet> <for [Maori] Civilizations>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+            "Is part of Great Person group [Prophet]",
+            "[This Unit] gets a name from the [Prophet] group",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"	
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit> <for [non-[Maori]] Civilizations>",
+            "Can instantly construct a [Maori Citadel] improvement <by consuming this unit> <for [Maori] Civilizations>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [General] group",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [Khan] group",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": [
+            // TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+            "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Can be earned through combat <for [Water] units>",
+            "Is part of Great Person group [Admiral]",
+            "[This Unit] gets a name from the [Admiral] group",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+		
+	
     {//行商-唐朝
     	"name": "Itinerant Merchant",
     	"unitType": "Civilian",
@@ -136,11 +262,14 @@
 		"uniqueTo": "Cree",
 		"replaces": "Scout",
 		"unitType": "Scout",
-		"movement": 3,
+		"movement": 2,
 		"strength": 5,
 		"cost": 30,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
+	    	"[+1] Movement <for units with [Scouting I]>",
+	    	"[+1] Movement <for units with [Survivalism I]>",
+	    	"[-1] Movement <for units with [Scouting I]> <for units with [Survivalism I]>",
 			"May upgrade to [Archer] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
@@ -163,4 +292,66 @@
 		"promotions": ["Description ability"],
 		"attackSound": "metalhit"
 	},
+	
+	{//苏美尔-先贤
+		"name": "Sages",
+		"unitType": "Civilian",
+		"uniques": [
+			"Unbuildable",
+			"Uncapturable",
+			"Cannot be purchased",
+			
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+            "Can instantly construct a [Holy site] improvement <by consuming this unit>",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+        ],
+		"movement": 4
+	},
+	{
+		"name": "Enkidu",
+	    "uniqueTo": "Sumeria",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"uniques": [
+		    "Unbuildable",
+		    "Cannot be purchased",
+		    "[+33]% Strength <vs [Barbarian] units>",
+		    "Ignores terrain cost",
+		    "[+6] Strength <during the [Classical era]>",
+		    "[+12] Strength <during the [Medieval era]>",
+		    "[+18] Strength <during the [Renaissance era]>",
+		    "[+24] Strength <during the [Industrial era]>",
+		    "[+40] Strength <during the [Modern era]>",
+		    "[+60] Strength <during the [Atomic era]>",
+		    "[+80] Strength <during the [Information era]>",
+		    "[+140] Strength <during the [Future era]>",
+		],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Sumerian unique Great Person unit."}
+		]
+	},
+	
+	
+	{
+		"name": "Toa",
+		"uniqueTo": "Maori",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 9,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": [
+		    "May upgrade to [Spearman] through ruins-like effects"
+		],
+		"attackSound": "nonmetalhit",
+	},
+	
 ]

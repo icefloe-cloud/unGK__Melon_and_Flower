@@ -158,7 +158,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
-		"improvementStats": {"production": 3},
+		"improvementStats": {"production": 5},
 		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
 					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
@@ -529,5 +529,16 @@
 		"Not shown on world screen",
 		"Will not be displayed in Civilopedia"
 	]
-},
+    },
+	{ //世界奇观辅助计数器-
+	"name": "Number of World Wonders",
+	"resourceType": "Strategic",
+	"terrainsCanBeFoundOn": [],
+	"uniques": [
+	    "Stockpiled", 
+		"Cannot be traded",
+		
+		"Will not be displayed in Civilopedia"
+	]
+    },
 ]
