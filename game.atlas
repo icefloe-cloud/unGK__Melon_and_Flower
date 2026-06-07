@@ -6,28 +6,28 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Amphitheater image
   rotate: false
-  xy: 312, 380
+  xy: 1556, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bank image
   rotate: false
-  xy: 1556, 1668
+  xy: 140, 72
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Baray
   rotate: false
-  xy: 1820, 1932
+  xy: 1556, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Broadcast Tower image
   rotate: false
-  xy: 140, 72
+  xy: 1664, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -41,86 +41,107 @@ BuildingIcons/Great Wall of Ming Dynasty
   index: -1
 BuildingIcons/Hanlinyuan
   rotate: false
-  xy: 420, 380
+  xy: 892, 380
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Marae
+  rotate: false
+  xy: 1556, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Market image
   rotate: false
-  xy: 1556, 1560
+  xy: 1664, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mbanza
   rotate: false
-  xy: 1664, 1668
+  xy: 1324, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Moai Statues
+  rotate: false
+  xy: 1820, 1832
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Monument image
   rotate: false
-  xy: 1928, 1932
+  xy: 1664, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Museum image
   rotate: false
-  xy: 420, 272
+  xy: 1432, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Opera House image
   rotate: false
-  xy: 780, 676
+  xy: 1556, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Prasat
   rotate: false
-  xy: 888, 784
+  xy: 1664, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shrine image
   rotate: false
-  xy: 1152, 1048
+  xy: 1664, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Stock Exchange image
   rotate: false
-  xy: 1260, 1156
+  xy: 1820, 1508
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Temple image
   rotate: false
-  xy: 1664, 1560
+  xy: 1928, 1508
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Thermal Bath
   rotate: false
-  xy: 1928, 1824
+  xy: 784, 272
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tsikhe
   rotate: false
-  xy: 636, 380
+  xy: 1108, 272
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ziggurat
+  rotate: false
+  xy: 576, 280
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/1
@@ -132,140 +153,175 @@ ImprovementIcons/1
   index: -1
 ImprovementIcons/Commercial port
   rotate: false
-  xy: 996, 968
+  xy: 1772, 1480
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (10)
   rotate: false
-  xy: 996, 968
+  xy: 1772, 1480
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 ImprovementIcons/Fishing harbour
   rotate: false
-  xy: 1044, 1016
+  xy: 312, 192
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 ImprovementIcons/Fishing village
   rotate: false
-  xy: 248, 122
+  xy: 1253, 233
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ImprovementIcons/Manor
   rotate: false
-  xy: 1152, 1156
+  xy: 1556, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Maori Academy
+  rotate: false
+  xy: 1664, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Maori Citadel
+  rotate: false
+  xy: 1108, 380
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Maori Customs house
+  rotate: false
+  xy: 1556, 972
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Maori Landmark
+  rotate: false
+  xy: 1664, 1080
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Maori Manufactory
+  rotate: false
+  xy: 1216, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Mekewap
   rotate: false
-  xy: 780, 568
+  xy: 248, 72
   size: 92, 100
   orig: 92, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/下载
   rotate: false
-  xy: 1440, 1206
+  xy: 1311, 233
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (1)
   rotate: false
-  xy: 636, 308
+  xy: 1037, 200
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (12)
   rotate: false
-  xy: 1556, 1274
+  xy: 1253, 177
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (9)
   rotate: false
-  xy: 1556, 1274
+  xy: 1253, 177
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (2)
   rotate: false
-  xy: 1556, 1330
+  xy: 1369, 233
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (3)
   rotate: false
-  xy: 780, 496
+  xy: 1109, 200
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (4)
   rotate: false
-  xy: 472, 214
+  xy: 1427, 233
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (5)
   rotate: false
-  xy: 312, 184
+  xy: 576, 192
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (6)
   rotate: false
-  xy: 400, 200
+  xy: 1181, 200
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (7)
   rotate: false
-  xy: 530, 216
+  xy: 1309, 177
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 ImprovementIcons/下载 (8)
   rotate: false
-  xy: 1498, 1206
+  xy: 1485, 233
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 NationIcons/Aqueduct
   rotate: false
-  xy: 780, 892
+  xy: 1820, 1724
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Aristoaqueduct
   rotate: false
-  xy: 780, 892
+  xy: 1820, 1724
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Traditionaqueduct
   rotate: false
-  xy: 780, 892
+  xy: 1820, 1724
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -279,14 +335,14 @@ NationIcons/Cree
   index: -1
 NationIcons/Dreamland
   rotate: false
-  xy: 312, 272
+  xy: 1820, 1616
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Georgia
   rotate: false
-  xy: 780, 1000
+  xy: 312, 224
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
@@ -300,98 +356,189 @@ NationIcons/Hungary
   index: -1
 NationIcons/Khmer
   rotate: false
-  xy: 888, 892
+  xy: 1664, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Kongo
   rotate: false
-  xy: 1044, 1048
+  xy: 1000, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Kongo ability
   rotate: false
-  xy: 1044, 1048
+  xy: 1000, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ming dynasty
   rotate: false
-  xy: 1820, 1824
+  xy: 1556, 756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Māori
+  rotate: false
+  xy: 1556, 648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sumeria
+  rotate: false
+  xy: 1928, 1724
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tang dynasty
   rotate: false
-  xy: 1556, 1452
+  xy: 1928, 1616
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Ballista Elephant
   rotate: false
-  xy: 888, 701
+  xy: 664, 197
   size: 77, 75
   orig: 77, 75
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Sages
+  rotate: false
+  xy: 1216, 291
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Sages-1
+  rotate: false
+  xy: 1319, 291
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Sages-2
+  rotate: false
+  xy: 1422, 291
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Tradition Settler
   rotate: false
-  xy: 1664, 1496
+  xy: 965, 208
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Commercial port
   rotate: false
-  xy: 1260, 1092
+  xy: 1556, 476
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fishing harbour
   rotate: false
-  xy: 1260, 1092
+  xy: 1556, 476
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fishing village
   rotate: false
-  xy: 1260, 1092
+  xy: 1556, 476
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Manor
   rotate: false
-  xy: 1368, 1200
+  xy: 1628, 476
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Maori Academy
+  rotate: false
+  xy: 1700, 468
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Maori Citadel
+  rotate: false
+  xy: 1540, 404
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Maori Customs house
+  rotate: false
+  xy: 1612, 404
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Maori Holy site
+  rotate: false
+  xy: 1684, 396
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Maori Landmark
+  rotate: false
+  xy: 749, 200
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Maori Manufactory
+  rotate: false
+  xy: 821, 200
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Mekewap
   rotate: false
-  xy: 1556, 1388
+  xy: 893, 208
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Ballista Elephant
   rotate: false
-  xy: 1044, 1156
+  xy: 784, 380
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Enkidu
+  rotate: false
+  xy: 1556, 1776
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 UnitIcons/Holy site Engineer
   rotate: false
-  xy: 780, 784
+  xy: 1556, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Maori Holy site
+  rotate: false
+  xy: 1556, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -412,21 +559,21 @@ ResourceIcons/Itinerant Merchant Capacity
   index: -1
 UnitIcons/Khevsur
   rotate: false
-  xy: 1556, 1776
+  xy: 1556, 1512
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Ngao Mbeba
   rotate: false
-  xy: 528, 380
+  xy: 1664, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ngao Mbeba ability
   rotate: false
-  xy: 528, 380
+  xy: 1664, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -438,9 +585,23 @@ UnitIcons/Okihtcitaw
   orig: 768, 768
   offset: 0, 0
   index: -1
+UnitIcons/Sages
+  rotate: false
+  xy: 780, 488
+  size: 768, 768
+  orig: 768, 768
+  offset: 0, 0
+  index: -1
+UnitIcons/Toa
+  rotate: false
+  xy: 892, 272
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Tradition Settler
   rotate: false
-  xy: 528, 272
+  xy: 1000, 272
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
