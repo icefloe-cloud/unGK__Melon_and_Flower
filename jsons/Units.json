@@ -141,6 +141,7 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit> <for [non-[Maori]] Civilizations>",
             "Can instantly construct a [Maori Citadel] improvement <by consuming this unit> <for [Maori] Civilizations>",
@@ -159,6 +160,7 @@
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
 		"uniques": [
+		    "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
